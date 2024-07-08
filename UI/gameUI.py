@@ -62,7 +62,7 @@ class Cell(ToggleButton):
             self.img = Image(source = source_)
         self.img.allow_stretch = True
         self.img.pos = [self.pos[0] + 5, self.pos[1]]
-        self.img.size = (75,75)
+        self.img.size = (95,95)
         self.add_widget(self.img)
 
     def reposition_img(self, *args):

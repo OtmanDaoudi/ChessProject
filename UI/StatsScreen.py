@@ -47,7 +47,6 @@ class StatsScreen(Screen):
             PVMbestScore =  App.get_running_app().root.get_screen('stats').ids.PVMbestScore
             PVMbestTime =  App.get_running_app().root.get_screen('stats').ids.PVMbestTime
 
-            # print("fetched data = ", data)
             pvp = data[0]
             pvm = data[1]
             #pvp data
